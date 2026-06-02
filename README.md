@@ -39,14 +39,16 @@ cd pathNex-repo
 Make the script executable:
 
 ```bash
-chmod +x script.sh
+chmod +x scripts/*.sh
 ```
 
 Run the script:
 
 ```bash
-./script.sh
+./scripts/script.sh 
+./scripts/healthScript.sh
 ```
+
 
 ## Learning Goals
 
