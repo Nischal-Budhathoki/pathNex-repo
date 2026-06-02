@@ -35,6 +35,9 @@ echo "- d = directory"
 echo "Ownership structure:"
 echo "user (u), group (g), others (o)"
 
+echo"to add permision and to remove it "
+echo "Add Permissions (+), remove Permissions (-), Set Permissions (=)"
+
 echo "Creating exercise file:"
 touch exercise.txt
 
@@ -54,5 +57,30 @@ ls -l exercise.txt
 
 echo "Checking groups:"
 groups
+
+echo ". stands for the current working file where are we exactly"
+
+echo ".. stands for the parent directory"
+
+echo "To display few lines of headers of the file"
+head
+
+echo "To display last few lines of the file "
+tail
+
+echo "Disk Usage:"
+df -h
+
+echo "Memory Usage:"
+free -h
+
+echo "Current Processes:"
+ps aux | head
+
+echo "Environment Variables:"
+env | head
+
+echo "Current Date:"
+date
 
 echo "Script execution completed."
