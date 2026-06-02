@@ -1,18 +1,24 @@
 name: CI Pipeline
 
 on:
-    push:
-        branches: [main]
+  push:
+    branches: [main]
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
-    
-        steps:
-        - uses: actions/checkout@v4
+  build:
+    runs-on: ubuntu-latest
 
-        - name: Install dependencies
-          run: npm install
+    steps:
+      - uses: actions/checkout@v4
 
-        - name: Run tests
-          run: npm test
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
+
+      - name: Give Permissions
+        run: chmod +x script.sh
+
+      - name: Run Script
+        run: ./script.sh

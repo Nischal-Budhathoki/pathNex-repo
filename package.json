@@ -1,0 +1,22 @@
+{
+  "name": "pathnex-practice",
+  "version": "1.0.0",
+  "description": "ls -- to list all the commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bash script.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nischal-Budhathoki/pathNex-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Nischal-Budhathoki/pathNex-repo/issues"
+  },
+  "homepage": "https://github.com/Nischal-Budhathoki/pathNex-repo#readme"
+}
