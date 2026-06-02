@@ -1,64 +1,84 @@
 # PathNex Repo
 
-A repository dedicated to practicing Linux fundamentals, shell scripting, Git, and CI/CD automation.
+A repository dedicated to practicing Linux fundamentals, shell scripting, Git, and CI/CD automation using GitHub Actions.
 
-## Contents
+---
+
+## 📂 Contents
 
 ### Linux Exercises
 
 Practice exercises covering:
-    - File and directory management
-    -  Permissions and ownership
-    -  Users and groups
-    -  Process management
-    -  Package management
-    -  Networking basics
-    -  Text processing commands
+
+* File and directory management
+* Permissions and ownership
+* Users and groups
+* Process management
+* Package management
+* Networking basics
+* Text processing commands
+
+---
 
 ### Shell Scripts
 
-Included:
+* `scripts/` — Linux automation scripts (multiple Bash scripts)
 
-*  `script.sh` — Linux automation and practice script
+---
 
 ### CI/CD Automation
 
-Included:
-
 * `.github/workflows/ci.yml` — GitHub Actions workflow for automated testing and validation
 
-## Getting Started
+---
 
-Clone the repository:
+## 🚀 Getting Started
 
-```bash
+### Clone the repository
+
+```bash id="clone1"
 git clone https://github.com/Nischal-Budhathoki/pathNex-repo.git
 cd pathNex-repo
 ```
 
-Make the script executable:
+---
 
-```bash
+### Make scripts executable
+
+```bash id="perm1"
 chmod +x scripts/*.sh
 ```
 
-Run the script:
+---
 
-```bash
-./scripts/script.sh 
+### Run scripts
+
+```bash id="run1"
+./scripts/script.sh
+```
+
+```bash id="run2"
 ./scripts/healthScript.sh
 ```
 
+---
 
-## Learning Goals
+## 🎯 Learning Goals
 
--  Master Linux fundamentals
--  Practice Bash scripting
--  Learn Git workflows
--  Understand CI/CD pipelines
--  Build DevOps foundations
+* Master Linux fundamentals
+* Practice Bash scripting
+* Learn Git workflows
+* Understand CI/CD pipelines
+* Build DevOps foundations
 
+---
 
-## Author
+## 👤 Author
+
 Nischal Budhathoki
-  - any suggestions would be much appreciated 
+
+---
+
+## 💬 Feedback
+
+Suggestions and improvements are welcome to enhance this learning repository.
