@@ -1,2 +1,0 @@
-
-this is just a excercise.txt file and this is used via the vim command
