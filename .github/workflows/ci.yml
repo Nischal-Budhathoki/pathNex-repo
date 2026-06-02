@@ -11,14 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: npm install
+      - name: Show files
+        run: ls -la
 
-      - name: Run tests
-        run: npm test
-
-      - name: Give Permissions
-        run: chmod +x script.sh
-
-      - name: Run Script
-        run: ./script.sh
+      - name: Run script
+        run: |
+          chmod +x script.sh
+          ./script.sh
