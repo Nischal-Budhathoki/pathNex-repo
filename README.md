@@ -61,6 +61,14 @@ chmod +x scripts/*.sh
 ./scripts/healthScript.sh
 ```
 
+```bash id="run3"
+./scripts/fileOperation.sh
+```
+
+```bash id="run4"
+./scripts/ownOperation.sh
+```
+
 ---
 
 ## 🎯 Learning Goals
