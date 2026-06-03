@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/Nischal-Budhathoki/pathNex-repo'
+                git 'https://github.com/Nischal-Budhathoki/pathNex-repo.git'
             }
         }
 
