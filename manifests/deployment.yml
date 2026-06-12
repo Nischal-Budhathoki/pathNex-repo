@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+	name: pathnex-backend
+	labels:
+		app: pathnex-backend
+
+
+spec:
+	replicas: 2
+	selectors:
+		matchLables:
+			app: pathnex-backend
+
+template:
+	metadata:
+		labels:
+			app:pathnex-backend
+
+spec:
+	containers:
+		- name: backend
+		  image: nginx:latest
+		  ports:
+			- containerPort: 80
+
+	env:
+	   - name: ENVIRONMENT
+	     value: "development"
+	
+
+ 	resources:
+	  requests:
+	    memory: "128Mi"
+	    cpu: "100m"
+
+	 limits:
+	   memory: "256Mi"
+	   cpu: "500m"
+
